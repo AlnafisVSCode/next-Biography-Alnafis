@@ -52,19 +52,19 @@ const Navbar = () => {
 		opened: {
 			x: 0, // 0% of viewport width
 			transition: {
-				type: "tween",
-				duration: 0.5,
+				when: "beforeChildren",
+				staggerChildren: 0.17,
 			},
 		},
 	};
 	const listItemVariants = {
 		closed: {
-			opacity: 0,
 			x: -10,
+			opacity: 0,
 		},
 		opened: {
-			opacity: 1,
 			x: 0,
+			opacity: 1,
 		},
 	};
 
