@@ -134,7 +134,10 @@ const AboutPage = () => {
 						</div>
 
 						{/* SKILL SCROLL SVG */}
-						<svg
+						<motion.svg
+							initial={{ opacity: 0.2, y: 0 }}
+							animate={{ opacity: 1, y: "10px" }}
+							transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
 							viewBox="0 0 24 24"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
@@ -149,12 +152,12 @@ const AboutPage = () => {
 								d="M15 11L12 14L9 11"
 								stroke="#000000"
 								strokeWidth="1"></path>
-						</svg>
+						</motion.svg>
 					</div>
 
 					{/* Experience Container */}
 					<div
-						className="flex flex-col gap-12 justify-center pb-52"
+						className="flex flex-col gap-12 justify-center pb-48"
 						ref={experienceRef}>
 						{/* Experience Title */}
 						<motion.h1
@@ -165,7 +168,10 @@ const AboutPage = () => {
 							Experience
 						</motion.h1>
 						{/* Experience List */}
-						<motion.div initial={{ x: "-300px" }} className="">
+						<motion.div
+							initial={{ x: "-300px" }}
+							animate={isExperienceRefInView ? { x: "0" } : {}}
+							className="">
 							{/* experience list item */}
 							<div className="flex justify-between h-48">
 								{/* left */}
