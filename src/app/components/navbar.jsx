@@ -94,10 +94,10 @@ const Navbar = () => {
 				<Link href={"https://github.com/AlnafisVSCode"}>
 					<Image src="/github.png" alt="" width={24} height={24} />
 				</Link>
-				<Link href={"/"}>
+				<Link href={"https://www.linkedin.com/in/alnafis"}>
 					<Image src="/linkedin.png" alt="" width={24} height={24} />
 				</Link>
-				<Link href={"/"}>
+				<Link href={"https://www.instagram.com/alnafisxhunterxx"}>
 					<Image src="/instagram.png" alt="" width={24} height={24} />
 				</Link>
 			</div>
