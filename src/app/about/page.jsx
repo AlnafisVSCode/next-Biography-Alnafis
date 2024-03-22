@@ -11,11 +11,18 @@ const AboutPage = () => {
 	const { scrollYProgress } = useScroll({ container: containerRef });
 
 	const skillRef = useRef();
-	// const isSkillRefInView = useInView(skillRef, {once:true});
-	const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
+	const isSkillRefInView = useInView(
+		skillRef,
+		{ once: true },
+		{ margin: "-100px" }
+	);
 
 	const experienceRef = useRef();
-	const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
+	const isExperienceRefInView = useInView(
+		experienceRef,
+		{ once: true },
+		{ margin: "-100px" }
+	);
 	return (
 		<motion.div
 			className="h-full "
@@ -44,7 +51,14 @@ const AboutPage = () => {
 						{/* Biography Sign SVG */}
 						<div className="self-end">
 							{/* Biography Scroll SVG*/}
-							<svg
+							<motion.svg
+								initial={{ opacity: 0.2, y: 0 }}
+								animate={{ opacity: 1, y: "10px" }}
+								transition={{
+									repeat: Infinity,
+									duration: 3,
+									ease: "easeInOut",
+								}}
 								xmlns="http://www.w3.org/2000/svg"
 								width="113"
 								height="53"
@@ -56,15 +70,23 @@ const AboutPage = () => {
 										fill="black"
 									/>
 								</g>
-							</svg>
+							</motion.svg>
 						</div>
 					</div>
 					{/* Skills Container */}
-					<div className="flex flex-col gap-12 justify-center">
+					<div className="flex flex-col gap-12 justify-center " ref={skillRef}>
 						{/* Skills Title */}
-						<h1 className="font-bold text-2xl">Skills</h1>
+						<motion.h1
+							initial={{ x: "-300px" }}
+							animate={isSkillRefInView ? { x: 0 } : {}}
+							transition={{ delay: 0.2 }}
+							className="font-bold text-2xl">
+							Skills
+						</motion.h1>
 						{/* Skills List */}
-						<div
+						<motion.div
+							initial={{ x: "-300px" }}
+							animate={isSkillRefInView ? { x: 0 } : {}}
 							className="flex gap-4 flex-wrap justify-center
 						">
 							<div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
@@ -131,7 +153,7 @@ const AboutPage = () => {
 							<div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
 								Figma
 							</div>
-						</div>
+						</motion.div>
 
 						{/* SKILL SCROLL SVG */}
 						<motion.svg
