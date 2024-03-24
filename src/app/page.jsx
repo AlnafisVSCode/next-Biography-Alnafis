@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { LinkArrow } from "./components/Icons";
 import Footer from "./components/Footer";
+import HireMe from "./components/HireMe";
+
 const Homepage = () => {
 	return (
 		<motion.div
@@ -39,7 +41,7 @@ const Homepage = () => {
 						<Link
 							href="/AlnafisChowdhury_Resume.pdf"
 							target={"_blank"}
-							className="p-4 rounded-lg ring-1 ring-black bg-black text-white font-semibold hover:bg-lime-300 hover:text-black
+							className="p-4 flex rounded-lg ring-1 ring-black bg-black text-white font-semibold hover:bg-lime-300 hover:text-black
 							border-2 border-solid border-transparent hover:border-black"
 							download={true}>
 							Resume/CV <LinkArrow className={"w-6 ml-1"} />
@@ -53,7 +55,11 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+			<HireMe />
 
+			<div>
+				<Image src="" alt="Codebucks" className="w-full h-auto" />
+			</div>
 			{/* FOOTER */}
 			<Footer />
 		</motion.div>

@@ -11,6 +11,7 @@ export const Footer = () => {
 			{/* <p className="text-center">
 				© 2024 Alnafis Chowdhury. All rights reserved.
 			</p> */}
+			<span></span>
 		</footer>
 	);
 };
