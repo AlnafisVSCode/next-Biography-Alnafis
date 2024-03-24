@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { LinkArrow } from "./components/Icons";
+import Footer from "./components/Footer";
 const Homepage = () => {
 	return (
 		<motion.div
@@ -52,6 +53,9 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
+
+			{/* FOOTER */}
+			<Footer />
 		</motion.div>
 	);
 };
