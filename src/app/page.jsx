@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-
+import Link from "next/link";
+import { LinkArrow } from "./components/Icons";
 const Homepage = () => {
 	return (
 		<motion.div
@@ -34,9 +35,17 @@ const Homepage = () => {
 
 					{/* BUTTONS */}
 					<div className="w-full flex gap-4">
-						<button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+						<Link
+							href="/AlnafisChowdhury_Resume.pdf"
+							target={"_blank"}
+							className="p-4 rounded-lg ring-1 ring-black bg-black text-white font-semibold hover:bg-lime-300 hover:text-black
+							border-2 border-solid border-transparent hover:border-black"
+							download={true}>
+							Resume/CV <LinkArrow className={"w-6 ml-1"} />
+						</Link>
+						{/* <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
 							View My Work
-						</button>
+						</button> */}
 						<button className="p-4 rounded-lg ring-1 ring-black bg-white text-black">
 							Contact Me
 						</button>
