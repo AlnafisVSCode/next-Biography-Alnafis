@@ -24,7 +24,7 @@ const TransitionProvider = ({ children }) => {
 					animate={{ opacity: 0 }}
 					exit={{ opacity: 0 }}
 					transition={{ duration: 1.2, ease: [0.43, 0.13, 0.23, 0.96] }} // cubic-bezier easing function
-				>
+					style={{ fontFamily: "Montserrat, sans-serif" }}>
 					{pathName.substring(1).charAt(0).toUpperCase() +
 						pathName.substring(1).slice(1)}
 				</motion.div>

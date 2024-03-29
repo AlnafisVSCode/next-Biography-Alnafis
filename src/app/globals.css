@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@font-face {
+	font-family: "Satoshi";
+	src: url("/public\fonts\Satoshi_Complete\Fonts\WEB\fonts\Satoshi-MediumItalic.woff2")
+			format("woff2"),
+		url("/public\fonts\Satoshi_Complete\Fonts\WEB\fonts\Satoshi-MediumItalic.woff2")
+			format("woff");
+	font-weight: 400;
+	font-display: swap;
+	font-family: "Satoshi", sans-serif;
+	font-family: "General Sans", sans-serif;
+	font-family: "Supreme", sans-serif;
+	font-family: "Outfit",  sans-serif;
+}

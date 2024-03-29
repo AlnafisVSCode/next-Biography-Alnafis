@@ -22,7 +22,9 @@ const Homepage = () => {
 				{/* TEXT CONTAINER */}
 				<div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
 					{/* title */}
-					<h1 className="text-4xl md:text-6xl font-bold ">
+					<h1
+						className="text-4xl md:text-6xl font-bold "
+						style={{ fontFamily: "Satoshi" }}>
 						Welcome to my Portfolio
 					</h1>
 					{/* description */}
@@ -58,7 +60,12 @@ const Homepage = () => {
 			<HireMe />
 
 			<div>
-				<Image src="" alt="Codebucks" className="w-full h-auto" />
+				{/* <Image src="" alt="Codebucks" className="w-full h-auto" /> */}
+				<div
+					className="text-4xl md:text-6xl font-bold"
+					style={{ fontFamily: "Satoshi" }}>
+					This is Satoshi font
+				</div>{" "}
 			</div>
 			{/* FOOTER */}
 			<Footer />
