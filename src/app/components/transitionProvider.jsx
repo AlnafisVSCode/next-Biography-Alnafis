@@ -16,14 +16,15 @@ const TransitionProvider = ({ children }) => {
 					className="h-screen w-screen fixed bg-black rounded-b-[100px] z-40"
 					animate={{ height: "0vh" }}
 					exit={{ height: "140vh" }}
-					transition={{ duration: 0.8, ease: "easeOut" }}
+					transition={{ duration: 1.2, ease: [0.43, 0.13, 0.23, 0.96] }} // cubic-bezier easing function
 				/>
 				<motion.div
 					className="fixed m-auto top-0 bottom-0 left-0 right-0 text-white text-7xl cursor-default z-50 w-fit h-fit"
 					initial={{ opacity: 1 }}
 					animate={{ opacity: 0 }}
 					exit={{ opacity: 0 }}
-					transition={{ duration: 0.8, ease: "easeOut" }}>
+					transition={{ duration: 1.2, ease: [0.43, 0.13, 0.23, 0.96] }} // cubic-bezier easing function
+				>
 					{pathName.substring(1).charAt(0).toUpperCase() +
 						pathName.substring(1).slice(1)}
 				</motion.div>
@@ -32,7 +33,11 @@ const TransitionProvider = ({ children }) => {
 					initial={{ height: "140vh" }}
 					animate={{
 						height: "0vh",
-						transition: { delay: 0.5 },
+						transition: {
+							delay: 0.5,
+							duration: 1.2,
+							ease: [0.43, 0.13, 0.23, 0.96],
+						}, // cubic-bezier easing function
 					}}
 				/>
 
