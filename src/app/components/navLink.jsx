@@ -10,9 +10,7 @@ const NavLink = ({ link }) => {
 		<Link
 			className={
 				"rounded p-1 " +
-				(pathName === link.url
-					? "bg-black text-white"
-					: "hover:bg-slate-500/20")
+				(pathName === link.url ? "bg-black text-white" : "hover:bg-orange-400")
 			}
 			href={link.url}>
 			{link.title}
