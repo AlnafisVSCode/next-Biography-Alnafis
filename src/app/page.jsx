@@ -47,7 +47,7 @@ const Homepage = () => {
 							className="p-4 flex rounded-lg ring-1 ring-black bg-black text-white font-semibold hover:bg-lime-300 hover:text-black
 							border-2 border-solid border-transparent hover:border-black"
 							download={true}>
-							Resume/CV <LinkArrow className={"w-4 h-4 ml-1"} />
+							Resume/CV <LinkArrow className={"w-3 h-3 ml-1"} />
 						</Link>
 						{/* <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
 							View My Work
