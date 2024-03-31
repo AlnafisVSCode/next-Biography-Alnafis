@@ -22,8 +22,9 @@ const Homepage = () => {
 				{/* TEXT CONTAINER */}
 				<div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
 					{/* title */}
+
 					<h1
-						className="text-4xl md:text-6xl font-bold "
+						className="font-satoshi text-4xl md:text-6xl font-bold "
 						style={{ fontFamily: "Satoshi" }}>
 						Welcome to my Portfolio
 					</h1>
@@ -46,7 +47,7 @@ const Homepage = () => {
 							className="p-4 flex rounded-lg ring-1 ring-black bg-black text-white font-semibold hover:bg-lime-300 hover:text-black
 							border-2 border-solid border-transparent hover:border-black"
 							download={true}>
-							Resume/CV <LinkArrow className={"w-6 ml-1"} />
+							Resume/CV <LinkArrow className={"w-4 h-4 ml-1"} />
 						</Link>
 						{/* <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
 							View My Work

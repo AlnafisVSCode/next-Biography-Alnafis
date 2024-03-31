@@ -125,6 +125,9 @@ const Navbar = () => {
 						className="w-10 h-1 bg-black rounded origin-left"></motion.div>
 				</button>
 
+				{/*Terinary Operator*/}
+				{/* {open ? <div> </div> : <div></div>} */}
+
 				{/* MENU LIST */}
 				{open && (
 					<motion.div
