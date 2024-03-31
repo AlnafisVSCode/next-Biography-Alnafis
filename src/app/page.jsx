@@ -26,17 +26,11 @@ const Homepage = () => {
 					<h1
 						className="font-satoshi text-4xl md:text-6xl font-bold "
 						style={{ fontFamily: "Satoshi" }}>
-						Welcome to my Portfolio
+						Hello, I&apos;m Alnafis Chowdhury{" "}
 					</h1>
 					{/* description */}
 					<p className="text-lg">
-						As a junior software engineer, I am passionate about creating
-						innovative and efficient solutions. With a strong foundation in
-						programming and problem-solving, I strive to deliver high-quality
-						code and exceed client expectations. I am constantly learning and
-						exploring new technologies to stay up-to-date with the latest
-						industry trends. Welcome to my portfolio, where you can explore my
-						projects and see my skills in action.
+						Software Engineer, Web Developer, and UI/UX Designer based in London
 					</p>
 
 					{/* BUTTONS */}

@@ -10,6 +10,9 @@ module.exports = {
 			fontfamily: {
 				montserrat: ["Montserrat", "serif"],
 				satoshi: ["Satoshi", "sans-serif"],
+				boxShadow: {
+					neumorphic: "20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff",
+				},
 			},
 
 			backgroundImage: {
