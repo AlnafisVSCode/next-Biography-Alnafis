@@ -34,20 +34,79 @@ const Homepage = () => {
 					</p>
 
 					{/* BUTTONS */}
-					<div className="w-full flex gap-4">
+					<div className=" flex gap-4 w-fit pr-5 ">
 						<Link
 							href="/AlnafisChowdhury_Resume.pdf"
 							target={"_blank"}
-							className="p-4 flex rounded-lg ring-1 ring-black bg-black text-white font-semibold hover:bg-lime-300 hover:text-black
-							border-2 border-solid border-transparent hover:border-black"
+							className="cursor-pointer group relative flex justify-center items-center gap-1.5 px-8 py-4 bg-black bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md"
 							download={true}>
-							Resume/CV <LinkArrow className={"w-3 h-3 ml-1"} />
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								height="24px"
+								width="24px">
+								<g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+								<g
+									stroke-linejoin="round"
+									stroke-linecap="round"
+									id="SVGRepo_tracerCarrier"></g>
+								<g id="SVGRepo_iconCarrier">
+									<g id="Interface / Download">
+										<path
+											stroke-linejoin="round"
+											stroke-linecap="round"
+											stroke-width="2"
+											stroke="#f1f1f1"
+											d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
+											id="Vector"></path>
+									</g>
+								</g>
+							</svg>
+							Résumé / CV
+							<div className="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-black bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg">
+								Résumé / CV
+							</div>
 						</Link>
 						{/* <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
 							View My Work
 						</button> */}
-						<button className="p-4 rounded-lg ring-1 ring-black bg-white text-black">
-							Contact Me
+						<button
+							style={{
+								position: "relative",
+								borderRadius: "30px",
+								background: "#183153",
+								fontFamily: "Satoshi",
+								boxShadow: "0px 6px 24px 0px rgba(0, 0, 0, 0.2)",
+								overflow: "hidden",
+								cursor: "pointer",
+								border: "none",
+								display: "flex",
+								alignItems: "center",
+							}}
+							onMouseOver={(e) => {
+								e.currentTarget.style.background = "#ffd401";
+								e.currentTarget.childNodes[0].style.color = "#183153";
+							}}
+							onMouseOut={(e) => {
+								e.currentTarget.style.background = "#183153";
+								e.currentTarget.childNodes[0].style.color = "#fff";
+							}}>
+							<span
+								style={{
+									textAlign: "center",
+									textDecoration: "none",
+									width: "100%",
+									padding: "18px 25px",
+									color: "#fff",
+									fontSize: "1.125em",
+									fontWeight: "700",
+									letterSpacing: "0.3em",
+									zIndex: "20",
+									transition: "all 0.3s ease-in-out",
+								}}>
+								Contact
+							</span>
 						</button>
 					</div>
 				</div>
@@ -56,11 +115,11 @@ const Homepage = () => {
 
 			<div>
 				{/* <Image src="" alt="Codebucks" className="w-full h-auto" /> */}
-				<div
+				{/* <div
 					className="text-4xl md:text-6xl font-bold"
 					style={{ fontFamily: "Satoshi" }}>
 					This is Satoshi font
-				</div>{" "}
+				</div>{" "} */}
 			</div>
 			{/* FOOTER */}
 			<Footer />

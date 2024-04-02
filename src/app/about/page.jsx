@@ -179,7 +179,9 @@ const AboutPage = () => {
 
 					{/* Experience Container */}
 					<div
-						className="flex flex-col gap-12 justify-center pb-48"
+						className="flex flex-col gap-12 justify-center pb-48 "
+						style={{ fontFamily: "" }}
+						// Add items-center
 						ref={experienceRef}>
 						{/* Experience Title */}
 						<motion.h1
@@ -193,30 +195,32 @@ const AboutPage = () => {
 						<motion.div
 							initial={{ x: "-300px" }}
 							animate={isExperienceRefInView ? { x: "0" } : {}}
-							className="">
+							className="w-full">
 							{/* experience list item */}
 							<div className="flex justify-between h-48">
 								{/* left */}
 								<div className="w-1/3">
 									{/*Job title*/}
-									<div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+									<div className="bg-white p-2 font-semibold rounded-lg shadow-lg">
 										JavaScript Engineer
 									</div>
 									{/* job description */}
-									<div className="p-3 text-sm italic">
-										I am a senior JavaScript engineer with 5 years of
-										experience. I have worked on various projects and have a
-										good understanding of software development.
+									<div className="p-2 text-xs italic text-gray-600 shadow-lg mb-0.5">
+										{/* Adjust margin-bottom (mb-0.5) */}I am a JavaScript
+										engineer with 5 years of experience. I have worked on
+										various projects and have a good understanding of software
+										development.
 									</div>
 
 									{/* job duration */}
-									<div className="p-3 text-red-400 text-sm font-semibold">
-										2020 - Present
+									<div className="p-2 text-red-400 text-xs font-semibold mt-0.25">
+										{/* Adjust margin-top (mt-0.25) */}
+										2023 - Present
 									</div>
 
 									{/* company name */}
-									<div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-										Google
+									<div className="p-2 text-xs font-semibold text-black mt-0.25 italic">
+										Xander
 									</div>
 								</div>
 
@@ -225,7 +229,7 @@ const AboutPage = () => {
 									{/* line */}
 									<div className="w-1 h-full bg-gray-600 rounded relative">
 										{/* line circle */}
-										<div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+										<div className="absolute w-5 h-5 rounded-full ring-4 ring-green-500 bg-white -left-2"></div>
 									</div>
 								</div>
 								{/* right */}
@@ -241,27 +245,27 @@ const AboutPage = () => {
 									{/* LINE */}
 									<div className="w-1 h-full bg-gray-600 rounded relative">
 										{/* LINE CIRCLE */}
-										<div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+										<div className="absolute w-5 h-5 rounded-full ring-4 ring-black bg-white -left-2"></div>
 									</div>
 								</div>
 								{/* RIGHT */}
 								<div className="w-1/3 ">
 									{/* JOB TITLE */}
-									<div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-										Senior React Developer
+									<div className="bg-white p-2 font-semibold rounded-lg shadow-lg">
+										React Developer
 									</div>
 									{/* JOB DESC */}
-									<div className="p-3 text-sm italic">
+									<div className="p-2 text-xs italic text-gray-600 shadow-lg mb-0.5">
 										I spearheaded React-based application development,
 										leveraging advanced skills.{" "}
 									</div>
 									{/* JOB DATE */}
-									<div className="p-3 text-red-400 text-sm font-semibold">
-										2019 - 2024{" "}
+									<div className="p-2 text-red-400 text-xs font-semibold mt-0.25">
+										2019 - 2022{" "}
 									</div>
 									{/* JOB COMPANY */}
-									<div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-										Microsoft
+									<div className="p-2 text-xs font-semibold text-black italic mt-0.25">
+										Personaa
 									</div>
 								</div>
 							</div>
@@ -271,19 +275,23 @@ const AboutPage = () => {
 								{/* left */}
 								<div className="w-1/3">
 									{/*Job title*/}
-									<div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+									<div className="bg-white p-2 font-semibold rounded-lg shadow-lg">
 										{" "}
 										JavaScript Engineer
 									</div>
 
 									{/* JOB Description! */}
-									<div className="p-3 text-sm italic">
+									<div className="p-2 text-xs italic text-gray-600 shadow-lg mb-0.5">
 										I provided web solutions, applying a range of technologies
 										to address client requirements.{" "}
 									</div>
 									{/* JOB DATE */}
-									<div className="p-3 text-red-400 text-sm font-semibold">
-										2010 - 2019{" "}
+									<div className="p-2 text-red-400 text-xs font-semibold mt-0.25">
+										2018 - 2018{" "}
+									</div>
+									{/* JOB COMPANY */}
+									<div className="p-2 text-xs font-semibold text-black mt-0.25 italic">
+										UBS
 									</div>
 								</div>
 
@@ -292,7 +300,7 @@ const AboutPage = () => {
 									{/* line */}
 									<div className="w-1 h-full bg-gray-600 rounded relative">
 										{/* line circle? */}
-										<div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+										<div className="absolute w-5 h-5 rounded-full ring-4 ring-purple-500 bg-white -left-2"></div>
 									</div>
 								</div>
 								{/* right */}

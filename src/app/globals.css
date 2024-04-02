@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* font-family: "Satoshi", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); /* font-family: "Satoshi", sans-serif;
 font-family: "General Sans", sans-serif;
 font-family: "Supreme", sans-serif;
 font-family: "Outfit", sans-serif; */
@@ -15,8 +15,17 @@ font-family: "Outfit", sans-serif; */
 	font-weight: 400;
 }
 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.projects-left,
+.projects-right {
+	flex: 1;
+}
 body {
 	font-family: "Satoshi", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 /* font-family: "Satoshi", sans-serif;
