@@ -65,7 +65,7 @@ const Homepage = () => {
 							</svg>
 							Résumé / CV
 							<div className="absolute opacity-0 -bottom-full rounded-md py-2 px-2 bg-black bg-opacity-70 left-1/2 -translate-x-1/2 group-hover:opacity-100 transition-opacity shadow-lg">
-								Résumé / CV
+								Download
 							</div>
 						</Link>
 						{/* <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
