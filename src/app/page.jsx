@@ -71,43 +71,45 @@ const Homepage = () => {
 						{/* <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
 							View My Work
 						</button> */}
-						<button
-							style={{
-								position: "relative",
-								borderRadius: "30px",
-								background: "#183153",
-								fontFamily: "Satoshi",
-								boxShadow: "0px 6px 24px 0px rgba(0, 0, 0, 0.2)",
-								overflow: "hidden",
-								cursor: "pointer",
-								border: "none",
-								display: "flex",
-								alignItems: "center",
-							}}
-							onMouseOver={(e) => {
-								e.currentTarget.style.background = "#ffd401";
-								e.currentTarget.childNodes[0].style.color = "#183153";
-							}}
-							onMouseOut={(e) => {
-								e.currentTarget.style.background = "#183153";
-								e.currentTarget.childNodes[0].style.color = "#fff";
-							}}>
-							<span
+						<Link href="/contact">
+							<button
 								style={{
-									textAlign: "center",
-									textDecoration: "none",
-									width: "100%",
-									padding: "18px 25px",
-									color: "#fff",
-									fontSize: "1.125em",
-									fontWeight: "700",
-									letterSpacing: "0.3em",
-									zIndex: "20",
-									transition: "all 0.3s ease-in-out",
+									position: "relative",
+									borderRadius: "30px",
+									background: "#183153",
+									fontFamily: "Satoshi",
+									boxShadow: "0px 6px 24px 0px rgba(0, 0, 0, 0.2)",
+									overflow: "hidden",
+									cursor: "pointer",
+									border: "none",
+									display: "flex",
+									alignItems: "center",
+								}}
+								onMouseOver={(e) => {
+									e.currentTarget.style.background = "#ffd401";
+									e.currentTarget.childNodes[0].style.color = "#183153";
+								}}
+								onMouseOut={(e) => {
+									e.currentTarget.style.background = "#183153";
+									e.currentTarget.childNodes[0].style.color = "#fff";
 								}}>
-								Contact
-							</span>
-						</button>
+								<span
+									style={{
+										textAlign: "center",
+										textDecoration: "none",
+										width: "100%",
+										padding: "18px 25px",
+										color: "#fff",
+										fontSize: "1.125em",
+										fontWeight: "700",
+										letterSpacing: "0.3em",
+										zIndex: "20",
+										transition: "all 0.3s ease-in-out",
+									}}>
+									Contact
+								</span>
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
