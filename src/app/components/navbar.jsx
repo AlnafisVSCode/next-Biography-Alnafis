@@ -9,7 +9,7 @@ import Logo from "./logo";
 
 const links = [
 	{ url: "/", title: "Home" },
-	{ url: "/about", title: "About" },
+	{ url: "/about", title: "Biography" },
 	{ url: "/portfolio", title: "Portfolio" },
 	{ url: "/contact", title: "Contact" },
 ];
@@ -122,7 +122,7 @@ const Navbar = () => {
 						width="1em"
 						height="1.1em"
 						viewBox="0 0 512 512"
-						stroke-width="0"
+						strokeWidth="0"
 						fill="currentColor"
 						stroke="currentColor"
 						className="w-5 h-5 mx-auto my-auto">
@@ -142,7 +142,7 @@ const Navbar = () => {
 						width="1em"
 						height="1.2em"
 						viewBox="0 0 24 24"
-						stroke-width="1"
+						strokeWidth="1"
 						fill="currentColor"
 						stroke="currentColor"
 						className="w-5 mx-auto my-auto">

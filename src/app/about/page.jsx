@@ -47,7 +47,9 @@ const AboutPage = () => {
 							reputable company where I can grow and develop my career.
 						</p>
 						{/* Biography Quote */}
-						<span className="italic">If you aint first You are last!</span>
+						<span className="italic">
+							Code is like humor. When you have to explain it, it’s bad.
+						</span>
 						{/* Biography Sign SVG */}
 						<div className="self-end">
 							{/* Biography Scroll SVG*/}
@@ -206,10 +208,10 @@ const AboutPage = () => {
 									</div>
 									{/* job description */}
 									<div className="p-2 text-xs italic text-gray-600 shadow-lg mb-0.5">
-										{/* Adjust margin-bottom (mb-0.5) */}I am a JavaScript
-										engineer with 5 years of experience. I have worked on
-										various projects and have a good understanding of software
-										development.
+										{/* Adjust margin-bottom (mb-0.5) */}JavaScript Engineer
+										skilled in crafting dynamic, interactive web applications.
+										Proficient in leveraging modern frameworks and libraries to
+										create seamless user experiences.
 									</div>
 
 									{/* job duration */}

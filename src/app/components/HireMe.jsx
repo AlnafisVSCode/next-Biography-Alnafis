@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const HireMe = () => {
 	return (
-		<div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden">
+		<div className="md:fixed left-4 bottom-4 flex items-center justify-center overflow-hidden">
 			<div className="w-48 h-auto flex items-center justify-center relative">
 				<CircularText
 					className={"fill-black animate-spin-slow stroke-pink-500"}
