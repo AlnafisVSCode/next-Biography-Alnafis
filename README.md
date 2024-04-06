@@ -19,4 +19,4 @@ Portfolio Page:
 ![Medal_jCmLBChkkz](https://github.com/AlnafisVSCode/next-Biography-Alnafis/assets/99893321/0ce16836-f0c2-4e36-82bd-3c026947e603)
 
 Final Overview:
-https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVteDBnMWlhYWg0cTNycm05YnV3OXJ3OTQ0bzl5bjl2cjVrZ2owaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/weq0eFrZi0cyka1eVI/giphy.gif
+![giphy](https://github.com/AlnafisVSCode/next-Biography-Alnafis/assets/99893321/274af6d3-e0fd-4e9b-9515-3bf3148e645e)
