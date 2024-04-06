@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 Dashboard Page:
-![Untitled](https://github.com/AlnafisVSCode/next-Biography-Alnafis/assets/99893321/9ec5f6f3-a563-4630-a74b-af936a636859)
+![firefox_vjvyzt3Ecx](https://github.com/AlnafisVSCode/next-Biography-Alnafis/assets/99893321/651396fb-b802-4ca0-8d64-65d49c63a951)
 
 Biography Page:
 ![Untitled-1](https://github.com/AlnafisVSCode/next-Biography-Alnafis/assets/99893321/a7066b1b-c353-4cb2-b522-fd24b1f7584d)
