@@ -17,6 +17,3 @@ Biography Page:
 
 Portfolio Page:
 ![Medal_jCmLBChkkz](https://github.com/AlnafisVSCode/next-Biography-Alnafis/assets/99893321/0ce16836-f0c2-4e36-82bd-3c026947e603)
-
-Final Overview:
-![giphy](https://github.com/AlnafisVSCode/next-Biography-Alnafis/assets/99893321/274af6d3-e0fd-4e9b-9515-3bf3148e645e)
