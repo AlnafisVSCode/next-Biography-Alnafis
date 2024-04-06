@@ -48,14 +48,14 @@ const Homepage = () => {
 								width="24px">
 								<g strokeWidth="0" id="SVGRepo_bgCarrier"></g>
 								<g
-									stroke-linejoin="round"
-									stroke-linecap="round"
+									strokeLinejoin="round"
+									strokeLinecap="round"
 									id="SVGRepo_tracerCarrier"></g>
 								<g id="SVGRepo_iconCarrier">
 									<g id="Interface / Download">
 										<path
-											stroke-linejoin="round"
-											stroke-linecap="round"
+											strokeLinejoin="round"
+											strokeLinecap="round"
 											strokeWidth="2"
 											stroke="#f1f1f1"
 											d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
